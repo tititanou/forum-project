@@ -2,6 +2,7 @@ package forum.models;
 
 import java.io.Serializable;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -10,6 +11,7 @@ import javax.persistence.ManyToOne;
 
 import forum.models.Sujet;
 
+@Entity
 public class Message implements Serializable{
 	
 	 /**
